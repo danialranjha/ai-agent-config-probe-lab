@@ -1,0 +1,1262 @@
+{
+  "fixture_count": 11,
+  "method_count": 3,
+  "removal_traces": [
+    {
+      "after_check": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "check_method": "registration_during_check",
+      "installed": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "removed": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b7d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after_check": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b7d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "check_method": "status_only",
+      "installed": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "removed": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b7d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "result": {
+        "configuration_status": "registration_absent",
+        "reported_write": null
+      }
+    }
+  ],
+  "rows": [
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": null,
+        "configuration_status": "file_absent",
+        "exists": false,
+        "parent_exists": false,
+        "parsed": null
+      },
+      "case": "missing_file",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": null,
+        "configuration_status": "file_absent",
+        "exists": false,
+        "parent_exists": false,
+        "parsed": null
+      },
+      "before": {
+        "bytes_hex": null,
+        "configuration_status": "file_absent",
+        "exists": false,
+        "parent_exists": false,
+        "parsed": null
+      },
+      "case": "missing_file",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "file_absent",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": null,
+        "configuration_status": "file_absent",
+        "exists": false,
+        "parent_exists": false,
+        "parsed": null
+      },
+      "case": "missing_file",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b7d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {}
+      },
+      "case": "empty_object",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b7d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {}
+      },
+      "before": {
+        "bytes_hex": "7b7d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {}
+      },
+      "case": "empty_object",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "registration_absent",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b7d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {}
+      },
+      "case": "empty_object",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d2c0a20202020226c6f63616c5f6e6f746573223a207b0a20202020202022636f6d6d616e64223a2022494e4552545f4558495354494e475f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            },
+            "local_notes": {
+              "command": "INERT_EXISTING_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226c6f63616c5f6e6f746573223a7b22636f6d6d616e64223a22494e4552545f4558495354494e475f434f4d4d414e44227d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "local_notes": {
+              "command": "INERT_EXISTING_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "case": "unrelated_settings",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226c6f63616c5f6e6f746573223a7b22636f6d6d616e64223a22494e4552545f4558495354494e475f434f4d4d414e44227d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "local_notes": {
+              "command": "INERT_EXISTING_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226c6f63616c5f6e6f746573223a7b22636f6d6d616e64223a22494e4552545f4558495354494e475f434f4d4d414e44227d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "local_notes": {
+              "command": "INERT_EXISTING_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "case": "unrelated_settings",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "registration_absent",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d2c0a20202020226c6f63616c5f6e6f746573223a207b0a20202020202022636f6d6d616e64223a2022494e4552545f4558495354494e475f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            },
+            "local_notes": {
+              "command": "INERT_EXISTING_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226c6f63616c5f6e6f746573223a7b22636f6d6d616e64223a22494e4552545f4558495354494e475f434f4d4d414e44227d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "local_notes": {
+              "command": "INERT_EXISTING_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "case": "unrelated_settings",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "case": "removed_registration",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "case": "removed_registration",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "registration_absent",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "registration_absent",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {},
+          "theme": "light"
+        }
+      },
+      "case": "removed_registration",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "case": "already_matching",
+      "file_changed": false,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": false
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "case": "already_matching",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d2c227468656d65223a226c69676874227d0a",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "case": "already_matching",
+      "file_changed": false,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": false
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f4f4c445f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_OLD_COMMAND"
+            }
+          }
+        }
+      },
+      "case": "changed_command",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f4f4c445f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_OLD_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f4f4c445f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_OLD_COMMAND"
+            }
+          }
+        }
+      },
+      "case": "changed_command",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "different_registration",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f4f4c445f434f4d4d414e44222c2261726773223a5b226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_OLD_COMMAND"
+            }
+          }
+        }
+      },
+      "case": "changed_command",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b22756e75736564222c226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "unused",
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b22756e75736564222c226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "unused",
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "case": "extra_arguments",
+      "file_changed": false,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "different_registration",
+        "reported_write": false
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b22756e75736564222c226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "unused",
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b22756e75736564222c226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "unused",
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "case": "extra_arguments",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "different_registration",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b22756e75736564222c226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "unused",
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a7b226173796172223a7b22636f6d6d616e64223a22494e4552545f41535941525f434f4d4d414e44222c2261726773223a5b22756e75736564222c226d63702d736572766572225d7d7d7d0a",
+        "configuration_status": "different_registration",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "unused",
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "case": "extra_arguments",
+      "file_changed": false,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "different_registration",
+        "reported_write": false
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b227468656d65223a226c69676874222c0a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "case": "malformed_json",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b227468656d65223a226c69676874222c0a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "before": {
+        "bytes_hex": "7b227468656d65223a226c69676874222c0a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "case": "malformed_json",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "invalid_json",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "7b227468656d65223a226c69676874222c0a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "case": "malformed_json",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "5b312c322c335d0a",
+        "configuration_status": "invalid_document",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": [
+          1,
+          2,
+          3
+        ]
+      },
+      "case": "non_object_json",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "5b312c322c335d0a",
+        "configuration_status": "invalid_document",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": [
+          1,
+          2,
+          3
+        ]
+      },
+      "before": {
+        "bytes_hex": "5b312c322c335d0a",
+        "configuration_status": "invalid_document",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": [
+          1,
+          2,
+          3
+        ]
+      },
+      "case": "non_object_json",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "invalid_document",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "5b312c322c335d0a",
+        "configuration_status": "invalid_document",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": [
+          1,
+          2,
+          3
+        ]
+      },
+      "case": "non_object_json",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a372c227468656d65223a226c69676874227d0a",
+        "configuration_status": "invalid_servers",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": 7,
+          "theme": "light"
+        }
+      },
+      "case": "malformed_servers",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b226d637053657276657273223a372c227468656d65223a226c69676874227d0a",
+        "configuration_status": "invalid_servers",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": 7,
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a372c227468656d65223a226c69676874227d0a",
+        "configuration_status": "invalid_servers",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": 7,
+          "theme": "light"
+        }
+      },
+      "case": "malformed_servers",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "invalid_servers",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d2c0a2020227468656d65223a20226c69676874220a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          },
+          "theme": "light"
+        }
+      },
+      "before": {
+        "bytes_hex": "7b226d637053657276657273223a372c227468656d65223a226c69676874227d0a",
+        "configuration_status": "invalid_servers",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": 7,
+          "theme": "light"
+        }
+      },
+      "case": "malformed_servers",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "ff000a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "case": "non_utf8",
+      "file_changed": true,
+      "method": "registration_during_check",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "ff000a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "before": {
+        "bytes_hex": "ff000a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "case": "non_utf8",
+      "file_changed": false,
+      "method": "status_only",
+      "result": {
+        "configuration_status": "invalid_json",
+        "reported_write": null
+      }
+    },
+    {
+      "after": {
+        "bytes_hex": "7b0a2020226d637053657276657273223a207b0a20202020226173796172223a207b0a2020202020202261726773223a205b0a2020202020202020226d63702d736572766572220a2020202020205d2c0a20202020202022636f6d6d616e64223a2022494e4552545f41535941525f434f4d4d414e44220a202020207d0a20207d0a7d",
+        "configuration_status": "matches_expected_command_and_args",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": {
+          "mcpServers": {
+            "asyar": {
+              "args": [
+                "mcp-server"
+              ],
+              "command": "INERT_ASYAR_COMMAND"
+            }
+          }
+        }
+      },
+      "before": {
+        "bytes_hex": "ff000a",
+        "configuration_status": "invalid_json",
+        "exists": true,
+        "parent_exists": true,
+        "parsed": null
+      },
+      "case": "non_utf8",
+      "file_changed": true,
+      "method": "explicit_registration",
+      "result": {
+        "configuration_status": "matches_expected_command_and_args",
+        "reported_write": true
+      }
+    }
+  ],
+  "schema": 1,
+  "scope": "unchanged registration helper, invented temporary configuration; no app/CLI/model/MCP execution"
+}

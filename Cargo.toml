@@ -1,0 +1,9 @@
+[package]
+name = "ai-agent-config-probe-lab"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+
+[dependencies]
+serde_json = "=1.0.150"
+log = "=0.4.33"

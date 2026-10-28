@@ -1,0 +1,46 @@
+{
+  "build_inputs_sha256": {
+    "Cargo.lock": "99d479f5b973ed1b01a3db1d7244bc50658678e6d71717b5046e7abce5773f4f",
+    "Cargo.toml": "fa77eeba7f38ef06a092aa72ffdd35944bddf4df2d2e47d526b291faf89f29b2",
+    "src/main.rs": "c7811c08b4089fac75921352bdf32d43851bc02a302e4d6cadb5b0fb67687d36",
+    "src/upstream.rs": "1c3442cc7036b7c849f8bffe4ed99fb16da134dc5690a2800b02ffb7e8ac6900"
+  },
+  "commands": [
+    "cargo test --offline --locked",
+    "cargo run --offline --locked --quiet"
+  ],
+  "functional_faults": {
+    "explicit_disabled": {
+      "exit_code": 101,
+      "failed": 3,
+      "failed_tests": [
+        "tests::artifact_covers_all_pairs_and_oracle_uses_bytes",
+        "tests::explicit_registration_is_functional",
+        "tests::removal_stays_removed_only_in_status_path"
+      ],
+      "ignored": 0,
+      "passed": 8
+    },
+    "status_registers": {
+      "exit_code": 101,
+      "failed": 4,
+      "failed_tests": [
+        "tests::changed_command_is_replaced_only_by_registration",
+        "tests::invalid_bytes_are_preserved_by_inspection",
+        "tests::removal_stays_removed_only_in_status_path",
+        "tests::status_preserves_every_raw_fixture"
+      ],
+      "ignored": 0,
+      "passed": 7
+    }
+  },
+  "normal": {
+    "exit_code": 0,
+    "failed": 0,
+    "failed_tests": [],
+    "ignored": 0,
+    "passed": 11
+  },
+  "scope": "assertions on actual temporary files; no model or real agent/config",
+  "source_body_sha256": "fbd05f08c50ff7987755ee3313f61edf960216e1bcf432cb81485de66db67560"
+}

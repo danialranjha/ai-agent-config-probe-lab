@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/Xoshbin/asyar",
+  "commit": "334c8fa6717c7a09ac60e075395d20eba3e70f5b",
+  "file": "asyar-launcher/src-tauri/src/ai/cli.rs",
+  "git_blob_sha": "19c1bb8a081044bde7dd4e026307a8e3ced91636",
+  "file_sha256": "5d815f22a003e55be498258f915a297392781da05a81fa78ffedb8ebd786cedf",
+  "function": "register_mcp_server_in_config",
+  "lines": [
+    510,
+    565
+  ],
+  "function_sha256": "fbd05f08c50ff7987755ee3313f61edf960216e1bcf432cb81485de66db67560",
+  "adaptation": "Path import and attribution only; function bytes unchanged. Harness and observer are original.",
+  "call_site": "check_cli_status resolves a CLI binary first, invokes registration for Claude, then runs version check. Full call path not executed here.",
+  "issue": "https://github.com/Xoshbin/asyar/issues/959",
+  "confirmation": "https://github.com/Xoshbin/asyar/issues/959#issuecomment-6452697101",
+  "license": "GPL-3.0",
+  "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "runtime": "rustc 1.97.1; cargo offline locked dependencies; Python3 standard library",
+  "network_during_experiment": false
+}
